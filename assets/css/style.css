@@ -1,0 +1,28 @@
+body{
+    background-image: url(../img/Group-Sessoes-de-BG.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+header{
+    background-image: url(../img/Ilustracao-Vector-Smart-Object.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.logo{
+}
+
+@media(max-width:750px){
+header{
+    height: 100%;
+    align-items: space-between;
+}
+.logo{
+    width: 40%;
+    float: right;
+}
+}
