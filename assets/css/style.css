@@ -2,27 +2,84 @@ body{
     background-image: url(../img/Group-Sessoes-de-BG.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    margin: 0 0 0 0;
+}
+
+.img{
+    max-width: 200px;
 }
 
 header{
     background-image: url(../img/Ilustracao-Vector-Smart-Object.png);
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
     font-family: 'Roboto', sans-serif;
+    font-weight: 900;
     color: white;
+    font-size: 40px;
 }
 
-.logo{
+h2{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    color: white;
+    font-size: 40px;
 }
+
+.intro>div{
+    display: flex;
+    justify-content: center;
+}
+
+.intro img{
+    width: 30%;
+}
+
+.intro ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.intro li{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    list-style: none;
+    color: white;
+    background-color: #f13062;
+    font-size: 20px;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+
 
 @media(max-width:750px){
 header{
-    height: 100%;
-    align-items: space-between;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 25px;
+    margin: 0 0 0 0;
+}
+.text-1{
+    align-self: center;
+}
+h1{
+    margin-top: 150px;
+    align-self: center;
 }
 .logo{
-    width: 40%;
+    width: 35%;
+    display: block;
     float: right;
+}
+.img{
+    max-width: 150px;
+
+}
+main{
+    margin: 0 25px;
 }
 }
