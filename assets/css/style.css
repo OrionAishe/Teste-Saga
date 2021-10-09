@@ -54,10 +54,6 @@ h2{
     flex-direction: row-reverse;
 }
 
-.esquerda>div{
-    width: 50%;
-}
-
 h3{
     font-size: 25px;
     font-family: 'Roboto', sans-serif;
@@ -79,6 +75,13 @@ h3>span{
 
 .bg-animacao{
     background-image: url(../img/bg-animacao.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.bg-photoshop{
+    background-image: url(../img/photoshop-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
