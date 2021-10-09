@@ -19,41 +19,86 @@ header{
     font-size: 40px;
 }
 
+main{
+    color: white;
+    display: grid;
+    grid-template-areas: "intro" "games" "animacao" "photoshop" "duvidas" "oficina";
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
 h2{
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 300;
     font-style: italic;
     text-align: center;
-    color: white;
     font-size: 40px;
 }
 
-.intro>div{
-    display: flex;
-    justify-content: center;
-}
-
-.intro img{
-    width: 30%;
-}
-
 .intro ul{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    display: none;
 }
 
-.intro li{
+.intro>img{
+    display: none;
+}
+
+.cursos{
+    display: flex;
+}
+
+.esquerda{
+    flex-direction: row-reverse;
+}
+
+.esquerda>div{
+    width: 50%;
+}
+
+h3{
+    font-size: 25px;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
-    list-style: none;
-    color: white;
-    background-color: #f13062;
-    font-size: 20px;
-    border-radius: 5px;
-    padding-left: 15px;
+    line-height: 28px;
 }
 
+h3>span{
+    font-size: 40px;
+    margin: 0 0 0 0;
+}
+
+.bg-games{
+    background-image: url(../img/bg-games.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.bg-animacao{
+    background-image: url(../img/bg-animacao.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.cursos p{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.btn{
+    max-width: 70%;
+    max-height: 100%;
+}
+
+.btn2{
+    max-width: 50%;
+}
 
 @media(max-width:750px){
 header{
@@ -76,10 +121,45 @@ h1{
     float: right;
 }
 .img{
-    max-width: 150px;
+    width: 40%;
 
 }
 main{
     margin: 0 25px;
+}
+.intro>div{
+    display: flex;
+    justify-content: center;
+}
+
+.intro ul{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 0;
+    margin-left: -20px;
+}
+
+.intro li{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    list-style: none;
+    background-color: #f13062;
+    font-size: 3.5vw;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+}
+.figuras{
+    display: flex;
+    flex-direction: column;
+    max-width: 35%;
+}
+.seta{
+    width: 30%;
+    margin-top: 50px;
+    margin-left: 50px;
 }
 }
