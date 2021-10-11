@@ -135,6 +135,81 @@ h3>span{
     width: 60%;
 }
 
+.botoes{
+    display: flex;
+    max-width: 100%;
+}
+
+.botoes input{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: italic;
+    border-style: none;
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    background-color: #f13062;
+    border-radius: 20px;
+    margin-left: 20px;
+    padding: 5px 15px 5px 15px;
+    max-width: 100%;
+}
+
+.botoes input:focus{
+    font-weight: bolder;
+    background-color: white;
+    border: 2px solid;
+    border-color: #f13062;
+    color: #f13062;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.form input{
+    margin-top: 25px;
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid #f13062;
+    background: none;
+    width: 70%;
+}
+
+#estado{
+    border: 2px solid #f13062;
+    border-radius: 20px;
+    width: 70%;
+    font-size: 25px;
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    margin-top: 25px;
+    background-color: #43056f;
+    padding-left: 10px;
+}
+
+#SAGA{
+    border: 2px solid #f13062;
+    border-radius: 20px;
+    width: 70%;
+    font-size: 25px;
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    margin-top: 25px;
+    background-color: #43056f;
+    padding-left: 10px;
+}
+
 @media(max-width:750px){
 header{
     font-size: 25px;
